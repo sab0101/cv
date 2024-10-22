@@ -40,3 +40,7 @@ h1{
     display: flex;
     justify-content: space-around;
 }
+bo{
+    display: flex;
+    justify-content: flex-end;
+}
