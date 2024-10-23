@@ -1,7 +1,6 @@
 #contenedor{
     display: grid;
     background-color: #F7E439;
-    width: 1700px;
     height: 900px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
@@ -43,4 +42,15 @@ h1{
 bo{
     display: flex;
     justify-content: flex-end;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#button{
+    grid-column: 4/6;
+    grid-row: 3/4;
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
 }
