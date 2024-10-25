@@ -48,9 +48,6 @@ bo{
     margin: 0px;
 }
 #button{
-    grid-column: 4/6;
-    grid-row: 3/4;
-    bottom: 50px;
-    right: 150px;
-    position: absolute ;
+    bottom: 20%;
+    right: 150px; 
 }
