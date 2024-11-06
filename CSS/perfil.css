@@ -1,14 +1,17 @@
 #contenedor{
     display: grid;
     background-color: #F7E439;
-    height: 900px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
     padding: 30px;
+    height: 800px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.cx {
+    font-size: 30px;
+}
 h1{
-    font-size: 40px;
+    font-size: 115px;
     color: #6341DE;
 }
 #titulo{
@@ -50,4 +53,27 @@ bo{
 #button{
     bottom: 20%;
     right: 150px; 
+    position: fixed;
+    bottom: 10px;
+}
+.x{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#skills p{
+    padding-left: 50px;
+}
+#sectores p{
+    padding-left: 50px;
+}
+#main-container{
+    max-width: 1520px;
+    margin: auto;
+}
+body{
+    background-color: #F7E439
+}
+html{
+    overscroll-behavior: none;
 }
