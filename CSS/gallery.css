@@ -1,0 +1,20 @@
+#main-container{
+    max-width: 1520px;
+    margin: auto;
+}
+body{
+    background-color: #18D1A3;
+}
+#conten{
+    background-color: #18D1A3;
+    padding: 60px;
+    width: 1920;
+    text-align: center;
+    height: 900px;
+}
+.low{
+    color: #FEFB36;
+    font-family: sans-serif;
+    font-size: 50px;
+    position: relative
+}
