@@ -43,12 +43,12 @@
     grid-row: 1/4;
 }
 .gt{
-    height: 520px;
-    width: 600px;
+    height: 500px;
+    width: 580px;
 }
 .ll{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 35px;
 }
 #crass{
